@@ -29,7 +29,9 @@ let peliculas = [
 ];
 
 function obtDetalles() {
-  document.write("----------CARTELERA----------<br/><br/>");
+  document.write(
+    "<b>------------------------CARTELERA------------------------</b><br/><br/>"
+  );
   for (let i = 0; i < peliculas.length; i++) {
     document.write(`<b>Título:</b> ${peliculas[i].título}<br/>`);
     document.write(`<b>Género:</b> ${peliculas[i].género}<br/>`);
